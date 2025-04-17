@@ -1,0 +1,60 @@
+# Ignore everything by default
+*
+!*/
+
+# Allow only specific documentation files
+!README.md
+!LICENSE
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
+
+# Allow GitHub-specific configuration folders and files
+!.github/
+!.github/**
+!.gitignore
+
+# Specifically block any potential code files
+*.js
+*.ts
+*.py
+*.java
+*.php
+*.html
+*.css
+*.scss
+*.jsx
+*.tsx
+*.json
+*.xml
+*.yaml
+*.yml
+*.sql
+*.sh
+*.bat
+*.ps1
+*.env*
+*.config
+
+# Block binaries and archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.jar
+*.war
+*.ear
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Block logs and databases
+*.log
+*.sqlite
+*.db
+
+# Block OS specific files
+.DS_Store
+Thumbs.db
