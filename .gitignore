@@ -11,6 +11,11 @@
 # Allow GitHub-specific configuration folders and files
 !.github/
 !.github/**
+!.github/ISSUE_TEMPLATE/
+!.github/ISSUE_TEMPLATE/*.yml
+!.github/ISSUE_TEMPLATE/*.yaml
+!.github/ISSUE_TEMPLATE/*.md
+!.github/ISSUE_TEMPLATE_config.yml
 !.gitignore
 
 # Specifically block any potential code files
@@ -26,8 +31,6 @@
 *.tsx
 *.json
 *.xml
-*.yaml
-*.yml
 *.sql
 *.sh
 *.bat

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Cloud Storage Browser Documentation
+    url: https://example.com/docs
+    about: Check our documentation for answers to common questions
+  - name: Email Support
+    url: mailto:tanmally@gmail.com
+    about: Please contact us directly for urgent issues or account-specific questions
+  - name: Feature Ideas Discussion
+    url: https://github.com/tanmally/cloud-storage-browser-issues/discussions/categories/ideas
+    about: Discuss new feature ideas with the community before submitting a formal request
